@@ -1,6 +1,63 @@
 @import "reset";
 
 #header {
+  padding-top: 20px;
+  .header{
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    a{
+      color: gray;
+    }
+  }
+}
+.header-logo{
+  display: flex;
+}
+.header-nav{
+  display: flex;
+  justify-content: space-around;
+  padding-left: 100px;
+  & a {
+    margin: 0 15px;
+    font-size: 13px;
+  }
+  #hero{
+    .hero{
+      display: flex;
+      margin: 60px;
+      ju
+    .hero-text {
+      display: flex;
+      justify-content: normal;
+      align-items: center;
+
+
+    } }
+  }
+}
+#about{
+  .container{
+    .about{
+      color: #253659;
+      margin: 200px;
+      .about-text{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+        color: #253659;
+      }
+      .about-icon{
+        width: 50px;
+        padding: 50px;
+        padding-left: 1020px;
+        padding-top: 250px;
+      }
+    }
+  }
+}
   .header{
     display: flex;
     justify-content: space-between;
