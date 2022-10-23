@@ -16,17 +16,22 @@ a, a:hover {
   text-decoration: none;
 }
 
+
 #header {
   padding-top: 20px;
 }
 #header .header {
   background: rgba(255, 255, 255, 0.68);
   backdrop-filter: blur(10px);
+
+#header .header {
+
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 #header .header a {
+
   color: gray;
 }
 
@@ -80,6 +85,6 @@ a, a:hover {
   padding: 50px;
   padding-left: 1020px;
   padding-top: 250px;
+  color: red;
 }
 
-/*# sourceMappingURL=style.css.map */
